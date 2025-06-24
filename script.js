@@ -1,4 +1,4 @@
-const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxh8fEY87iT5T8UzQRaK6Zu4xnzRZqUtcNEFVYpX_4ro64WVuTyS6mkTUWGWNEt9d6m/exec";
+const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyUyTEsFqkbtwQ02gg5JAAb5JRSUyoyJX-_4waqCTuJ6XiyHJRyzHH-1eh6nEmXTdsE/exec";
 
 function getVisitorIP() {
   return fetch("https://api.ipify.org?format=json")
